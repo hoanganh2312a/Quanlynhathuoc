@@ -1,0 +1,12 @@
+D:\Học hành\HKIV\DoAn\DTO\bin\Debug\DTO.dll
+D:\Học hành\HKIV\DoAn\DTO\bin\Debug\DTO.pdb
+D:\Học hành\HKIV\DoAn\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\Học hành\HKIV\DoAn\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\Học hành\HKIV\DoAn\DTO\obj\Debug\DTO.dll
+D:\Học hành\HKIV\DoAn\DTO\obj\Debug\DTO.pdb
+D:\Học hành\HKIV\DoAn2\DTO\bin\Debug\DTO.dll
+D:\Học hành\HKIV\DoAn2\DTO\bin\Debug\DTO.pdb
+D:\Học hành\HKIV\DoAn2\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\Học hành\HKIV\DoAn2\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\Học hành\HKIV\DoAn2\DTO\obj\Debug\DTO.dll
+D:\Học hành\HKIV\DoAn2\DTO\obj\Debug\DTO.pdb

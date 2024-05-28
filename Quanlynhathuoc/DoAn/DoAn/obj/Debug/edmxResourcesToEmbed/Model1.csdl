@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QLBTModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="QLBTEntities" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="sp_inHoaDonBN" ReturnType="Collection(QLBTModel.sp_inHoaDonBN_Result)">
+      <Parameter Name="idBN" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_inHoaDonNhap" ReturnType="Collection(QLBTModel.sp_inHoaDonNhap_Result)">
+      <Parameter Name="maHDN" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="sp_inHoaDonBN_Result">
+    <Property Type="String" Name="hoTen" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="diaChi" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="dienThoai" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="idBN" Nullable="true" MaxLength="50" />
+    <Property Type="Double" Name="tongTienHD" Nullable="true" />
+    <Property Type="Double" Name="tongThue" Nullable="true" />
+    <Property Type="DateTime" Name="ngayLap" Nullable="true" Precision="23" />
+    <Property Type="Int32" Name="soLuong" Nullable="true" />
+    <Property Type="Double" Name="giaBan" Nullable="true" />
+    <Property Type="Double" Name="giaBan1" Nullable="true" />
+    <Property Type="String" Name="tenThuoc" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="sp_inHoaDonNhap_Result">
+    <Property Type="String" Name="maHDN" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="soLuong" Nullable="true" />
+    <Property Type="Double" Name="giaNhap" Nullable="true" />
+    <Property Type="String" Name="idThuoc" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="tenNPP" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="tenThuoc" Nullable="true" MaxLength="50" />
+  </ComplexType>
+</Schema>

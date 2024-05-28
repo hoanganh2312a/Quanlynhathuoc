@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QLBTModelStoreContainer" CdmEntityContainer="QLBTEntities">
+    <FunctionImportMapping FunctionImportName="sp_inHoaDonBN" FunctionName="QLBTModel.Store.sp_inHoaDonBN">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="QLBTModel.sp_inHoaDonBN_Result">
+          <ScalarProperty Name="hoTen" ColumnName="hoTen" />
+          <ScalarProperty Name="diaChi" ColumnName="diaChi" />
+          <ScalarProperty Name="dienThoai" ColumnName="dienThoai" />
+          <ScalarProperty Name="idBN" ColumnName="idBN" />
+          <ScalarProperty Name="tongTienHD" ColumnName="tongTienHD" />
+          <ScalarProperty Name="tongThue" ColumnName="tongThue" />
+          <ScalarProperty Name="ngayLap" ColumnName="ngayLap" />
+          <ScalarProperty Name="soLuong" ColumnName="soLuong" />
+          <ScalarProperty Name="giaBan" ColumnName="giaBan" />
+          <ScalarProperty Name="giaBan1" ColumnName="giaBan1" />
+          <ScalarProperty Name="tenThuoc" ColumnName="tenThuoc" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_inHoaDonNhap" FunctionName="QLBTModel.Store.sp_inHoaDonNhap">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="QLBTModel.sp_inHoaDonNhap_Result">
+          <ScalarProperty Name="maHDN" ColumnName="maHDN" />
+          <ScalarProperty Name="soLuong" ColumnName="soLuong" />
+          <ScalarProperty Name="giaNhap" ColumnName="giaNhap" />
+          <ScalarProperty Name="idThuoc" ColumnName="idThuoc" />
+          <ScalarProperty Name="tenNPP" ColumnName="tenNPP" />
+          <ScalarProperty Name="tenThuoc" ColumnName="tenThuoc" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

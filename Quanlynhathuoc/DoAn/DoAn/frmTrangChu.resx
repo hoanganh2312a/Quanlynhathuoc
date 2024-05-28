@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="đăngXuấtToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 26</value>
+  </data>
+  <data name="đăngXuấtToolStripMenuItem.Text" xml:space="preserve">
+    <value>Đăng xuất</value>
+  </data>
+  <data name="thoátToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 26</value>
+  </data>
+  <data name="thoátToolStripMenuItem.Text" xml:space="preserve">
+    <value>Thoát</value>
+  </data>
+  <data name="hệThốngToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 24</value>
+  </data>
+  <data name="hệThốngToolStripMenuItem.Text" xml:space="preserve">
+    <value>Hệ Thống</value>
+  </data>
+  <data name="quảnLýTàiKhoảnToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 26</value>
+  </data>
+  <data name="quảnLýTàiKhoảnToolStripMenuItem.Text" xml:space="preserve">
+    <value>Quản lý Tài khoản</value>
+  </data>
+  <data name="quảnLýToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 26</value>
+  </data>
+  <data name="quảnLýToolStripMenuItem.Text" xml:space="preserve">
+    <value>Quản lý Nhóm Thuốc</value>
+  </data>
+  <data name="quảnLýThuốcToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 26</value>
+  </data>
+  <data name="quảnLýThuốcToolStripMenuItem.Text" xml:space="preserve">
+    <value>Quản lý Thuốc</value>
+  </data>
+  <data name="quảnLýNhàSảnXuấtToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 26</value>
+  </data>
+  <data name="quảnLýNhàSảnXuấtToolStripMenuItem.Text" xml:space="preserve">
+    <value>Quản lý Nhà sản xuất</value>
+  </data>
+  <data name="quảnLýNhàPhânPhốiToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 26</value>
+  </data>
+  <data name="quảnLýNhàPhânPhốiToolStripMenuItem.Text" xml:space="preserve">
+    <value>Quản lý Nhà Phân Phối</value>
+  </data>
+  <data name="quảnLýHóaĐơnXuấtToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 26</value>
+  </data>
+  <data name="quảnLýHóaĐơnXuấtToolStripMenuItem.Text" xml:space="preserve">
+    <value>Quản lý Hóa Đơn Xuất</value>
+  </data>
+  <data name="quảnLýHóaĐơnNhậpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 26</value>
+  </data>
+  <data name="quảnLýHóaĐơnNhậpToolStripMenuItem.Text" xml:space="preserve">
+    <value>Quản lý Hóa Đơn Nhập</value>
+  </data>
+  <data name="quảnLýĐơnVịTínhToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 26</value>
+  </data>
+  <data name="quảnLýĐơnVịTínhToolStripMenuItem.Text" xml:space="preserve">
+    <value>Quản lý Đơn Vị Tính</value>
+  </data>
+  <data name="quảnLýChiTiếtHóaĐơnXuấtToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 26</value>
+  </data>
+  <data name="quảnLýChiTiếtHóaĐơnXuấtToolStripMenuItem.Text" xml:space="preserve">
+    <value>Quản lý Chi Tiết Hóa Đơn Xuất</value>
+  </data>
+  <data name="quảnLýChiTiếtHóaĐơnNhậpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 26</value>
+  </data>
+  <data name="quảnLýChiTiếtHóaĐơnNhậpToolStripMenuItem.Text" xml:space="preserve">
+    <value>Quản lý Chi Tiết Hóa Đơn Nhập</value>
+  </data>
+  <data name="quảnLýBệnhNhânToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 26</value>
+  </data>
+  <data name="quảnLýBệnhNhânToolStripMenuItem.Text" xml:space="preserve">
+    <value>Quản lý Bệnh Nhân</value>
+  </data>
+  <data name="chứcNăngToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 24</value>
+  </data>
+  <data name="chứcNăngToolStripMenuItem.Text" xml:space="preserve">
+    <value>Quản lý</value>
+  </data>
+  <data name="nhậpHàngToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 26</value>
+  </data>
+  <data name="nhậpHàngToolStripMenuItem.Text" xml:space="preserve">
+    <value>Nhập hàng</value>
+  </data>
+  <data name="xuấtHàngToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 26</value>
+  </data>
+  <data name="xuấtHàngToolStripMenuItem.Text" xml:space="preserve">
+    <value>Xuất hàng</value>
+  </data>
+  <data name="chứcNăngToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 24</value>
+  </data>
+  <data name="chứcNăngToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Chức Năng</value>
+  </data>
+  <data name="hóaĐơnXuấtToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 26</value>
+  </data>
+  <data name="hóaĐơnXuấtToolStripMenuItem.Text" xml:space="preserve">
+    <value>Hóa đơn xuất</value>
+  </data>
+  <data name="hóaĐơnNhậpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 26</value>
+  </data>
+  <data name="hóaĐơnNhậpToolStripMenuItem.Text" xml:space="preserve">
+    <value>Hóa đơn nhập</value>
+  </data>
+  <data name="reportToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 24</value>
+  </data>
+  <data name="reportToolStripMenuItem.Text" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>782, 28</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>13, 24</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>782, 753</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 4, 6, 4</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Quản lý nhà thuốc</value>
+  </data>
+  <data name="&gt;&gt;hệThốngToolStripMenuItem.Name" xml:space="preserve">
+    <value>hệThốngToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;hệThốngToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;đăngXuấtToolStripMenuItem.Name" xml:space="preserve">
+    <value>đăngXuấtToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;đăngXuấtToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;thoátToolStripMenuItem.Name" xml:space="preserve">
+    <value>thoátToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;thoátToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chứcNăngToolStripMenuItem.Name" xml:space="preserve">
+    <value>chứcNăngToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;chứcNăngToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;quảnLýTàiKhoảnToolStripMenuItem.Name" xml:space="preserve">
+    <value>quảnLýTàiKhoảnToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;quảnLýTàiKhoảnToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;quảnLýToolStripMenuItem.Name" xml:space="preserve">
+    <value>quảnLýToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;quảnLýToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;quảnLýThuốcToolStripMenuItem.Name" xml:space="preserve">
+    <value>quảnLýThuốcToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;quảnLýThuốcToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;quảnLýNhàSảnXuấtToolStripMenuItem.Name" xml:space="preserve">
+    <value>quảnLýNhàSảnXuấtToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;quảnLýNhàSảnXuấtToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;quảnLýNhàPhânPhốiToolStripMenuItem.Name" xml:space="preserve">
+    <value>quảnLýNhàPhânPhốiToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;quảnLýNhàPhânPhốiToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;quảnLýHóaĐơnXuấtToolStripMenuItem.Name" xml:space="preserve">
+    <value>quảnLýHóaĐơnXuấtToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;quảnLýHóaĐơnXuấtToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;quảnLýHóaĐơnNhậpToolStripMenuItem.Name" xml:space="preserve">
+    <value>quảnLýHóaĐơnNhậpToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;quảnLýHóaĐơnNhậpToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;quảnLýĐơnVịTínhToolStripMenuItem.Name" xml:space="preserve">
+    <value>quảnLýĐơnVịTínhToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;quảnLýĐơnVịTínhToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;quảnLýChiTiếtHóaĐơnXuấtToolStripMenuItem.Name" xml:space="preserve">
+    <value>quảnLýChiTiếtHóaĐơnXuấtToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;quảnLýChiTiếtHóaĐơnXuấtToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;quảnLýChiTiếtHóaĐơnNhậpToolStripMenuItem.Name" xml:space="preserve">
+    <value>quảnLýChiTiếtHóaĐơnNhậpToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;quảnLýChiTiếtHóaĐơnNhậpToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;quảnLýBệnhNhânToolStripMenuItem.Name" xml:space="preserve">
+    <value>quảnLýBệnhNhânToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;quảnLýBệnhNhânToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chứcNăngToolStripMenuItem1.Name" xml:space="preserve">
+    <value>chứcNăngToolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;chứcNăngToolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nhậpHàngToolStripMenuItem.Name" xml:space="preserve">
+    <value>nhậpHàngToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;nhậpHàngToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;xuấtHàngToolStripMenuItem.Name" xml:space="preserve">
+    <value>xuấtHàngToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;xuấtHàngToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;reportToolStripMenuItem.Name" xml:space="preserve">
+    <value>reportToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;reportToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hóaĐơnXuấtToolStripMenuItem.Name" xml:space="preserve">
+    <value>hóaĐơnXuấtToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;hóaĐơnXuấtToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hóaĐơnNhậpToolStripMenuItem.Name" xml:space="preserve">
+    <value>hóaĐơnNhậpToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;hóaĐơnNhậpToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmTrangChu</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
